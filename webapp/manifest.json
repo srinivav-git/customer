@@ -50,6 +50,14 @@
         "settings": {
           "bundleName": "com.sp.cust.customer.i18n.i18n"
         }
+      },
+      "": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri" : "model/customers.json"
+      },
+      "genderModel" : {
+         "type": "sap.ui.model.json.JSONModel",
+          "uri" : "model/genders.json"
       }
     },
     "resources": {

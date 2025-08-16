@@ -19,18 +19,18 @@
             >
                 <columns>
                     <Column id="col_cid">
-                        <Text id="cid" text="Customer ID"/>
+                        <Text id="cid" text="Firstname"/>
                     </Column>
                     <Column id="col_cname">
-                        <Text id="cname" text="Customer Name" />
+                        <Text id="cname" text="Age" />
                     </Column>    
                     <Column id="col_gender">
-                        <Text id="gender" text="Gender" />
+                        <Text id="gender" text="IsEditable" />
                     </Column>               
                 </columns>
                 <items> 
-                    <ColumnListItem ><cells><ObjectIdentifier title="Hello"/><Text text="Anna Wintertur"/><Text text="Female"/></cells></ColumnListItem>
-                    <ColumnListItem ><cells><ObjectIdentifier title="Hello2"/><Text text="Schaffhausen"/><Text text="Male"/></cells></ColumnListItem>
+                    <ColumnListItem ><cells><ObjectIdentifier title="{/firstname}"/><Text text="{/age}"/><Text text="{/iseditable}"/></cells></ColumnListItem>
+                    <ColumnListItem ><cells><ObjectIdentifier title="{/firstname}"/><Text text="{/age}"/><Text text="{/iseditable}"/></cells></ColumnListItem>
                 </items>
             </Table>
         </s:content>
